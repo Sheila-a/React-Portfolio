@@ -1,0 +1,35 @@
+.pdc {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(218, 215, 215);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.pdc-browser {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  /* background-color: rgb(218, 215, 215); */
+  background-color: rgb(68, 63, 63);
+  position: sticky;
+  z-index: 2;
+}
+
+.pdc-circle {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 3px;
+}
+
+.pdc-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.pdc:hover .pdc-img {
+  transform: translateY(-100%);
+}

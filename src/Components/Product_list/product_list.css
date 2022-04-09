@@ -1,0 +1,27 @@
+.prli {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.prli-text {
+  width: 65%;
+}
+
+.prli-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.prli-desc {
+  margin: 20px 0px;
+}
+
+.pr-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
