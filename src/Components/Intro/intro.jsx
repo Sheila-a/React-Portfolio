@@ -23,7 +23,7 @@ const Intro = () => {
             services, online stores for customers
           </p>
         </div>
-        <svg
+        {/* <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -78,7 +78,7 @@ const Intro = () => {
               />
             </g>
           </g>
-        </svg>
+        </svg> */}
       </div>
       <div className="we-right">
         <div className="we-bg"></div>
