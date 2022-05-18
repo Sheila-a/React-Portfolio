@@ -1,0 +1,58 @@
+.Skills {
+  height: 200vh;
+  text-align: center;
+}
+
+.skill-text {
+  margin-top: 40px;
+}
+
+.sk-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.sk-subtitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.skill-row {
+  width: 55%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2.5;
+}
+
+.skill-img {
+  /* height: 200px;
+    width: 200px; */
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img1 {
+  float: right;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-img2 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  bottom: 500px;
+}
+
+hr {
+  border-color: grey;
+  border-width: 5px;
+  border-style: dotted none none none;
+  height: 0px;
+  width: 3%;
+  margin-left: 95vh;
+  margin-top: 30px;
+}

@@ -1,5 +1,5 @@
 .cont {
-  height: 100vh;
+  height: 92.4vh;
   display: flex;
   position: relative;
 }
@@ -20,18 +20,19 @@
   flex: 1;
 }
 
+.cont-title {
+  font-size: 50px;
+  width: 80%;
+  font-weight: 700;
+}
+
 .cont-right {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.cont-title {
-  font-size: 50px;
-  width: 80%;
-  font-weight: 700;
+  margin: 10px auto 20px auto;
 }
 
 .cont-info-item {
@@ -47,8 +48,36 @@
   margin-right: 20px;
 }
 
+.download-btn {
+  font-size: 15px;
+  padding: 8px 10px;
+}
+
+.download {
+  width: 15px;
+  margin-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .cont-desc {
   font-weight: 200;
+  font-size: 30px;
+}
+
+.cont-quote {
+  font-size: 10px;
+  width: 60%;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.cont-quoter {
+  margin-left: 200px;
+  font-size: 10px;
 }
 
 form {
@@ -79,6 +108,7 @@ button {
   color: white;
   font-weight: 500;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 button:hover {

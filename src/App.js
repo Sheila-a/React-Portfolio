@@ -1,23 +1,9 @@
-// import logo from "./logo.svg";
-// import "./App.css";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <p>Hello World.</p>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import Intro from "./Components/Intro/intro";
 import About from "./Components/About/about";
 import ProductList from "./Components/Product_list/product_list";
+import Skills from "./Components/My skills/skills";
 import Contact from "./Components/Contact/contact";
-import Toggle from "./Components/Toggle/toggle";
+import Footer from "./Components/Footer/footer";
 
 const App = () => {
   return (
@@ -25,8 +11,9 @@ const App = () => {
       <Intro />
       <About />
       <ProductList />
+      <Skills />
       <Contact />
-      <Toggle />
+      <Footer />
     </div>
   );
 };

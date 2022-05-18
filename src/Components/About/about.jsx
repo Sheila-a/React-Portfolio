@@ -1,35 +1,43 @@
 import "./about.css";
+import MeAgain from "../../image/port7.png";
 
 const About = () => {
   return (
-    <div className="abo">
-      <div className="abo-left">
-        <div className="abo-card bg"></div>
-        <div className="abo-card">
-          <img
-            src="https://img.freepik.com/free-psd/bi-fold-a5-flyer-mockup-open-perspective-view_144389-235.jpg?w=740&t=st=1649427845~exp=1649428445~hmac=820615406fd5d5b7ce329ca47606b1024eeae6d3f302d6355238abc013c825eb"
-            alt=""
-            className="abo-img"
-          />
+    <div className="about">
+      <div className="abo">
+        <div className="abo-left">
+          <div className="abo-card bg"></div>
+          <div className="abo-card">
+            <img src={MeAgain} alt="" className="abo-img" />
+          </div>
+        </div>
+        <div className="abo-right">
+          <h1 className="abo-title">About Me</h1>
+          <p className="abo-sub">So here's the thing....</p>
+          <p className="abo-desc">
+            I was born and raised in Enugu, Nigeria. I'm a Front End Web
+            Developer with my area of specialization in React. I develop
+            standard Web Applications for high-profile clients. I do watching
+            movies for hobbies; yunno, "What is dead may never die" kinda movies
+            (If you know, you know). Whatever position I find myself in, I am
+            determined to be pleasant and happy. Because I've discovered that
+            our disposition, rather than our circumstances, determines the
+            majority of our suffering or dissatisfaction. One of my all time
+            favourite quote is
+            <div className="quote">
+              <em>
+                "I need to celebrate life because I'm in a good spot, I work
+                hard, and I am happy with who I am and happy with what I do for
+                a living, and sometimes I just focus and overwhelm myself so
+                much with the fights and getting better, that I just need to
+                slow it down and enjoy life and enjoy training."
+              </em>
+            </div>
+            <div className="quoter">-Dustin Poirier</div>
+          </p>
         </div>
       </div>
-      <div className="abo-right">
-        <h1 className="abo-title">About Me</h1>
-        <p className="abo-sub">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cumque
-          fuga veritatis non!
-        </p>
-        <p className="abo-desc">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
-          veniam dolorem beatae vel necessitatibus reiciendis consequuntur
-          dolorum eaque quidem omnis corporis, nesciunt eius eligendi laborum
-          similique possimus qui! Obcaecati a dicta dolores, laboriosam vel
-          consequuntur maxime. Quis beatae
-        </p>
-        <div className="abo-award">
-          <img src="" alt="" className="abo-award-img" />
-        </div>
-      </div>
+      <hr />
     </div>
   );
 };

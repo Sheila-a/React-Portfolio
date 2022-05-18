@@ -15,6 +15,12 @@
   font-weight: 600;
 }
 
+.myself {
+  width: 25%;
+  box-shadow: 2px 2px 2px grey;
+  border-radius: 100px;
+}
+
 .prli-desc {
   margin: 20px 0px;
 }
@@ -24,4 +30,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+}
+
+.hr {
+  margin-right: 105vh;
 }

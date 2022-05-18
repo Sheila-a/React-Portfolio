@@ -1,16 +1,18 @@
 import "./product_list.css";
 import Product from "../Product/product";
 import { products } from "../../data";
+import Myself from "../../image/create4.png";
 
 const ProductList = () => {
   return (
     <div className="prli">
       <div className="prli-text">
         <h1 className="prli-title">Create & Inspire</h1>
+        <div>
+          <img src={Myself} alt="" className="myself" />
+        </div>
         <p className="prli-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          porro illo adipisci fugit quod! Fuga exercitationem assumenda,
-          maiores.
+          <em>....It's display time....</em>
         </p>
       </div>
       <div className="pr-list">
@@ -18,6 +20,7 @@ const ProductList = () => {
           <Product key={item.id} img={item.img} link={item.link} />
         ))}
       </div>
+      <hr className="hr" />
     </div>
   );
 };

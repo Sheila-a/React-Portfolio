@@ -11,10 +11,12 @@
   position: relative;
   justify-content: center;
   height: 100%;
+  margin-left: 20px;
 }
 
 .abo-right {
   flex: 1;
+  margin-right: 40px;
 }
 
 .abo-card.bg {
@@ -40,6 +42,7 @@
 
 .abo-title {
   font-weight: 600;
+  font-size: 40px;
 }
 
 .abo-sub {
@@ -48,4 +51,12 @@
 
 .abo-desc {
   font-weight: 300;
+}
+
+.quote {
+  margin: 30px 50px 0px 50px;
+}
+
+.quoter {
+  margin-left: 400px;
 }
