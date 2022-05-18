@@ -2,16 +2,16 @@ import { useRef, useState } from "react";
 import "./contact.css";
 // import emailjs from "emailjs-com";
 import emailjs from "@emailjs/browser";
-import { saveAs } from "file-saver";
+// import { saveAs } from "file-saver";
 import download from "../../image/download.png";
 import CV from "../../Updated_CV .docx";
 
 const Contact = () => {
-  const saveFile = () => {
-    saveAs(
-      "https://docs.google.com/document/d/1qgU0MvjWdsL7RiOsYxbSBmvT_byLdPVF/edit?usp=sharing&ouid=102686707767684111785&rtpof=true&sd=true"
-    );
-  };
+  // const saveFile = () => {
+  //   saveAs(
+  //     "https://docs.google.com/document/d/1qgU0MvjWdsL7RiOsYxbSBmvT_byLdPVF/edit?usp=sharing&ouid=102686707767684111785&rtpof=true&sd=true"
+  //   );
+  // };
   const formRef = useRef();
   // useState is set to false as initial state
   const [done, setDone] = useState(false);
