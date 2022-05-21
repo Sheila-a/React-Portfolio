@@ -33,3 +33,10 @@
 .pdc:hover .pdc-img {
   transform: translateY(-100%);
 }
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .pdc {
+    /* height: 20vh;
+    width: 10%; */
+  }
+}

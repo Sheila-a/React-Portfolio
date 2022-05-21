@@ -135,28 +135,12 @@
 
   .we-title-item {
     height: 50px;
-    /* font-size: 10px; */
   }
 
   .we-title-wrapper {
     height: 100%;
     animation: moveup 12s ease-in-out infinite alternate;
   }
-
-  /* @keyframes moveup {
-    25% {
-      transform: translateY(-30px);
-    }
-    50% {
-      transform: translateY(-50px);
-    }
-    75% {
-      transform: translateY(-70px);
-    }
-    100% {
-      transform: translateY(-90px);
-    }
-  } */
 
   .we-desc {
     font-size: 10px;
