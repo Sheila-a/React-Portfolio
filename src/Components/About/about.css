@@ -79,15 +79,15 @@
   }
 
   .abo-left {
-    margin-top: -2vh;
+    margin-top: -3vh;
     position: relative;
     margin-right: 6vh;
   }
 
   .abo-card {
-    height: 20vh;
+    height: 30vh;
     width: 60%;
-    border-radius: 20px;
+    border-radius: 15px;
     position: relative;
   }
 
@@ -97,43 +97,37 @@
   }
 
   .fg {
-    margin-top: -30vh;
-    margin-left: 50px;
+    margin-top: -11vh;
+    margin-left: 30px;
   }
 
   .abo-right {
     width: 80%;
-    margin: -30vh 5vh 0vh 2vh;
+    margin: -18vh 5vh 0vh 2vh;
   }
-
-  .abo-title {
-    font-size: 20px;
-    text-align: center;
-  }
-  .abo-sub {
-    font-size: 1px;
-  }
-
   .abo-desc {
-    font-size: 12px;
+    font-size: 15px;
     text-align: justify;
   }
 
   .abo-title {
-    font-size: 15px;
+    font-size: 30px;
+    text-align: center;
     margin-bottom: -2.5vh;
   }
 
   .abo-sub {
     margin-bottom: -0.1vh;
-    font-size: 10px;
+    font-size: 18px;
   }
 
   .quote {
     margin: 5px 10px 0px 15px;
+    font-size: 12px;
   }
 
   .quoter {
-    margin-left: 100px;
+    margin-left: 200px;
+    font-size: 12px;
   }
 }
