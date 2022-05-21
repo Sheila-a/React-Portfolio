@@ -92,3 +92,82 @@
   object-fit: cover;
   position: absolute;
 }
+
+/* MEDIA QUERY */
+@media (min-width: 320px) and (max-width: 430px) {
+  * {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    max-width: 850px;
+  }
+
+  /* INTRO */
+  .we {
+    display: flex;
+    height: 100vh;
+  }
+
+  /* .we-left {
+    bottom: 40vh;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+  } */
+
+  .we-left-wrapper {
+    padding: 50px;
+  }
+
+  .we-titleName {
+    font-size: 15px;
+  }
+
+  .we-name {
+    font-size: 40px;
+  }
+
+  .per1 {
+    white-space: nowrap;
+    font-size: 18px;
+  }
+
+  .we-title-item {
+    height: 50px;
+    /* font-size: 10px; */
+  }
+
+  .we-title-wrapper {
+    height: 100%;
+    animation: moveup 12s ease-in-out infinite alternate;
+  }
+
+  /* @keyframes moveup {
+    25% {
+      transform: translateY(-30px);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    75% {
+      transform: translateY(-70px);
+    }
+    100% {
+      transform: translateY(-90px);
+    }
+  } */
+
+  .we-desc {
+    font-size: 10px;
+  }
+
+  .we-bg {
+    clip-path: polygon(100% 0%, 100% 42%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    width: 150%;
+  }
+
+  .we-right {
+    height: 80vh;
+  }
+}
