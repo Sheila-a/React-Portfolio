@@ -60,3 +60,79 @@
 .quoter {
   margin-left: 400px;
 }
+
+/* MEDIA QUERY */
+@media (min-width: 320px) and (max-width: 430px) {
+  /* * {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    max-width: 850px;
+  } */
+
+  .abo {
+    display: flex;
+    height: 70vh;
+  }
+
+  .abo-left {
+    margin-left: -4vh;
+    flex: 1;
+    position: relative;
+    /* height: 50%; */
+  }
+
+  .abo-card {
+    height: 20vh;
+    width: 60%;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .abo-card .bg {
+    /* top: 10px; */
+    position: absolute;
+  }
+
+  .fg {
+    margin-top: -35vh;
+    margin-left: 50px;
+  }
+
+  .abo-right {
+    flex: 1;
+    width: 20%;
+    margin: -30vh 5vh 0vh 2vh;
+  }
+
+  .abo-title {
+    font-size: 10px;
+  }
+  .abo-sub {
+    font-size: 8px;
+  }
+
+  .abo-desc {
+    font-size: 5px;
+    text-align: justify;
+  }
+
+  .abo-title {
+    font-size: 15px;
+    margin-bottom: -2.5vh;
+  }
+
+  .abo-sub {
+    margin-bottom: -0.1vh;
+    font-size: 10px;
+  }
+
+  .quote {
+    margin: 5px 10px 0px 15px;
+  }
+
+  .quoter {
+    margin-left: 100px;
+  }
+}
