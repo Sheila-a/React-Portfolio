@@ -38,5 +38,8 @@
   .pdc {
     /* height: 20vh;
     width: 10%; */
+    height: 27vh;
+    width: 60vh;
+    margin: 5vh -6vh;
   }
 }

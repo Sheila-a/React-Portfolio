@@ -39,5 +39,18 @@
 @media (min-width: 320px) and (max-width: 430px) {
   .prli {
     display: grid;
+    grid-template-columns: 100%;
+  }
+  .prli-title {
+    font-size: 30px;
+  }
+
+  .prli-text {
+    width: 100%;
+  }
+
+  .myself {
+    width: 70%;
+    margin-top: 3vh;
   }
 }
