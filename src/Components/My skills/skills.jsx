@@ -47,7 +47,8 @@ const skills = () => {
           are described along side details of its expected performance.
         </p>
       </div>
-      <hr />
+      {/* <hr />
+      <hr className="visible" /> */}
     </div>
   );
 };

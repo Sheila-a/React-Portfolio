@@ -89,7 +89,12 @@ const Contact = () => {
           </em>
         </p>
         <p className="cont-quoter">-Bruce Lee</p>
-        <form action="" ref={formRef} onSubmit={handleSubmit}>
+        <form
+          action=""
+          ref={formRef}
+          onSubmit={handleSubmit}
+          className="cont-form"
+        >
           <input type="text" placeholder="Name" name="user-name" required />
           <input type="text" placeholder="Email" name="user-email" required />
           <input

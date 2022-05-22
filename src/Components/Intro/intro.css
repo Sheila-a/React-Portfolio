@@ -93,6 +93,9 @@
   position: absolute;
 }
 
+.hidden {
+  visibility: hidden;
+}
 /* MEDIA QUERY */
 @media (min-width: 320px) and (max-width: 430px) {
   * {
@@ -153,5 +156,14 @@
 
   .we-right {
     height: 100vh;
+  }
+
+  .visible {
+    visibility: hidden;
+  }
+
+  .hidden {
+    visibility: visible;
+    margin-top: -4.2vh;
   }
 }

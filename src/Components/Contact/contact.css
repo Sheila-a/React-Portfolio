@@ -128,3 +128,40 @@ button:hover {
   font-weight: 700;
   text-shadow: 10px 5px 5px grey;
 }
+
+/* MEDIA QUERY */
+@media (min-width: 320px) and (max-width: 430px) {
+  .cont {
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+  }
+
+  .cont-bg {
+    height: 100%;
+  }
+
+  .cont-title {
+    font-size: 30px;
+  }
+
+  .cont-right {
+    /* margin-top: -50vh; */
+  }
+
+  .cont-form {
+    width: 80%;
+  }
+
+  input {
+    display: flex;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 5vh;
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+}

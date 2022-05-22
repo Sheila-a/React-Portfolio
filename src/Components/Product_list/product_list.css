@@ -53,4 +53,8 @@
     width: 70%;
     margin-top: 3vh;
   }
+
+  .visible {
+    visibility: hidden;
+  }
 }

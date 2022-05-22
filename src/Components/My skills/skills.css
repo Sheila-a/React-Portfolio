@@ -47,7 +47,7 @@
   bottom: 500px;
 }
 
-hr {
+.visible {
   border-color: grey;
   border-width: 5px;
   border-style: dotted none none none;
@@ -55,4 +55,44 @@ hr {
   width: 3%;
   margin-left: 95vh;
   margin-top: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .Skills {
+    height: 220vh;
+  }
+
+  .sk-title {
+    font-size: 30px;
+  }
+
+  .sk-subtitle {
+    font-size: 15px;
+  }
+
+  .skill-row {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 2.5vh;
+    width: 90%;
+  }
+
+  .skill-img {
+    width: 30%;
+    float: none;
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  .skill-img1 {
+    float: none;
+    margin: 0px auto;
+    width: 30%;
+  }
+
+  .skill-img2 {
+    float: none;
+    margin: 0px auto 5px auto;
+    width: 30%;
+  }
 }

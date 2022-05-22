@@ -38,7 +38,8 @@ const About = () => {
         </div>
       </div>
       <br />
-      <hr />
+      <hr className="visible" />
+      <hr className="hidden" />
     </div>
   );
 };
