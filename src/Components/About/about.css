@@ -73,7 +73,7 @@
 
   .abo {
     display: flex;
-    height: 100vh;
+    height: 110vh;
     flex-direction: column;
     margin-left: 0;
   }
@@ -93,17 +93,23 @@
 
   .abo-card .bg {
     /* top: 10px; */
+    margin: 0;
     position: absolute;
   }
 
+  .bg {
+    margin-bottom: 50vh;
+  }
+
   .fg {
-    margin-top: -11vh;
+    margin-top: 9vh;
     margin-left: 30px;
   }
 
   .abo-right {
     width: 80%;
-    margin: -18vh 4vh 0vh 4vh;
+    margin: -2vh 4vh 0vh 4vh;
+    padding: 5vh 0;
   }
   .abo-desc {
     font-size: 15px;
@@ -113,7 +119,7 @@
   .abo-title {
     font-size: 30px;
     text-align: center;
-    margin-bottom: -2.5vh;
+    margin-bottom: 7vh;
   }
 
   .abo-sub {
