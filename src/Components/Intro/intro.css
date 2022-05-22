@@ -117,7 +117,7 @@
   } */
 
   .we-left-wrapper {
-    padding: 50px;
+    padding: 20px;
   }
 
   .we-titleName {
@@ -148,7 +148,7 @@
 
   .we-bg {
     clip-path: polygon(100% 0%, 100% 42%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    width: 150%;
+    width: 100%;
   }
 
   .we-right {
