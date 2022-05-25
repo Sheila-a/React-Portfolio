@@ -1,5 +1,8 @@
 import "./footer.css";
 
+const currentDate = new Date();
+const year = currentDate.getFullYear();
+
 const Footer = () => {
   return (
     <div className="tog">
@@ -27,7 +30,7 @@ const Footer = () => {
             Github
           </a>
         </div>
-        <p className="footer-note">© 2022 Chioma Ugwuodo.</p>
+        <p className="footer-note">© {} Chioma Ugwuodo.</p>
       </div>
     </div>
   );
