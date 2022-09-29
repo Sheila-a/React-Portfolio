@@ -4,7 +4,7 @@ import "./contact.css";
 import emailjs from "@emailjs/browser";
 // import { saveAs } from "file-saver";
 import download from "../../image/download.png";
-import CV from "../../UGWUODO__CHIOMA.pdf";
+import CV from "../../Ugwuodo_Chioma.pdf";
 
 const Contact = () => {
   // const saveFile = () => {
