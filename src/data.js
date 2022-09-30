@@ -29,9 +29,9 @@ export const products = [
   {
     id: 5,
     // img: "https://img.freepik.com/free-photo/blank-stationery-set-corporate-identity-template_93675-130793.jpg?t=st=1649427801~exp=1649428401~hmac=e6f70f432e1ad756b2229e975d1de5c717d0ce07cfa8eed832dcd6098598da3c&w=740",
-    img: "https://i.ibb.co/brfLPzB/screencapture-sheila-a-github-io-Tribute-tribute-html-2022-04-09-11-44-47.png",
+    img: "https://i.ibb.co/dMCGWcM/screencapture-localhost-3000-2022-09-30-21-59-25.png",
     // link: "https://sheila-a.github.io/RESPONSIVE-BUSINESS-WEBSITE/",
-    link: "https://sheila-a.github.io/Tribute/tribute.html",
+    link: "https://main--flixia-streaming-app.netlify.app/",
   },
   {
     id: 6,
