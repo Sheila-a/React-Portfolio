@@ -4,7 +4,7 @@ import "./contact.css";
 import emailjs from "@emailjs/browser";
 // import { saveAs } from "file-saver";
 import download from "../../image/download.png";
-import CV from "../../Ugwuodo_Chioma.pdf";
+import CV from "../../UCS_Resume.pdf";
 
 const Contact = () => {
   // const saveFile = () => {
@@ -58,7 +58,7 @@ const Contact = () => {
                 alt=""
                 className="cont-icon"
               />
-              ugwuodo20@gmail.com
+              sheila.codes.m@gmail.com
             </div>
             <div className="cont-info-item">
               <img
@@ -66,7 +66,7 @@ const Contact = () => {
                 alt=""
                 className="cont-icon"
               />
-              Hilltop, Nsukka, Enugu, Nigeria.
+              Enugu, Nigeria.
             </div>
 
             <button className="download-btn">
