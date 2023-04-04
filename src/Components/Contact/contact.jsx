@@ -3,7 +3,7 @@ import "./contact.css";
 // import emailjs from "emailjs-com";
 import emailjs from "@emailjs/browser";
 // import { saveAs } from "file-saver";
-import download from "../../image/download.png";
+import download from "../../assets/icons/download.png";
 import CV from "../../UCS_Resume.pdf";
 
 const Contact = () => {
