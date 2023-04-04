@@ -1,9 +1,9 @@
 import React from "react";
 import "./skills.css";
-import HTML from "../../image/html-5.png";
-import CSS from "../../image/css-3.png";
-import JSX from "../../image/atom (1).png";
-import SRS from "../../image/srs.png";
+import HTML from "../../assets/icons/html-5.png";
+import CSS from "../../assets/icons/css-3.png";
+import JSX from "../../assets/icons/atom (1).png";
+import SRS from "../../assets/icons/srs.png";
 
 const skills = () => {
   return (

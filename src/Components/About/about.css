@@ -14,6 +14,23 @@
   margin-left: 20px;
 }
 
+.social {
+  bottom: 5%;
+  display: flex;
+  position: absolute;
+}
+
+.social i {
+  font-size: 30px;
+  margin-right: 24px;
+  color: #2a2a2a;
+}
+
+.social a>i:hover {
+  color: rgba(99, 96, 96, 0.603);
+  transition: .4s ease;
+}
+
 .abo-right {
   flex: 1;
   margin-right: 40px;
@@ -111,6 +128,7 @@
     margin: -2vh 4vh 0vh 4vh;
     padding: 5vh 0;
   }
+
   .abo-desc {
     font-size: 15px;
     text-align: justify;
